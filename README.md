@@ -20,16 +20,18 @@ El estado dispone de diversas configuraciones en forma de argumentos:
   ````javascript
   setState({name: 'John Doe' })
   ````
+  
  - Un objeto (updater) y un callback:
-  ````javascript
-  setState({name: 'John Doe' }, () => console.log('State updated'))
-  ````
+   ````javascript
+   setState({name: 'John Doe' }, () => console.log('State updated'))
+   ````
+  
   - Un callback, tomando como parámetro el propio estado, cuyo retorno será el nuevo estado:
-  ````javascript
-  setState(prevState => {
-    return { age: prevState.age++ }
-  })
-  ````
+   ````javascript
+   setState(prevState => {
+     return { age: prevState.age++ }
+   })
+   ````
 
 ## React stateful components lifecycle
 

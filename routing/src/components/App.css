@@ -1,0 +1,18 @@
+main {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 10px
+}
+
+
+
+nav ul li .selected{
+  color: red
+}

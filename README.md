@@ -27,11 +27,11 @@ El estado dispone de diversas configuraciones en forma de argumentos:
    ````
   
   - Un callback, tomando como parámetro el propio estado, cuyo retorno será el nuevo estado:
-   ````javascript
-   setState(prevState => {
-     return { age: prevState.age++ }
-   })
-   ````
+    ````javascript
+    setState(prevState => {
+      return { age: prevState.age++ }
+    })
+    ````
 
 ## React stateful components lifecycle
 

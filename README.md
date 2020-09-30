@@ -1,5 +1,15 @@
 # week7_day3
 
+## React forms
+- Los formularios en React (_controlled components_) reflejan el contenido del estado, manipulándolo a tiempo real frente a la interacción del usuario.
+
+## Nombres de propiedades computados
+- Incluir el nombre de la propiedad de un objeto entre corchetes da lugar a un _computed name property_, sustituyendo el valor de la variable por el nombre de la propiedad del objeto:
+ ````javascript
+ const keyName = 'age'
+ const person = {[keyName]: 33}   // {age: 33}
+ ````
+
 ## State configs
 El estado dispone de diversas configuraciones en forma de argumentos:
 - Un objeto (updater)
